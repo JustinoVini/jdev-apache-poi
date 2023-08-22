@@ -13,7 +13,7 @@ public class LerArquivoTxt {
 
 		/* Fazendo a instancia da classe de leitura de arquivos do java */
 		FileInputStream entradaArquivo = new FileInputStream(
-				new File("C:\\Desenvolvimento\\ws-sts\\jdev-apache-poi\\src\\arquivos\\arquivo.txt"));
+				new File("C:\\Desenvolvimento\\ws-sts\\jdev-apache-poi\\src\\arquivos\\arquivo.csv"));
 
 		Scanner lerArquivo = new Scanner(entradaArquivo, "UTF-8"); // entrada do arquivo e a codificação
 

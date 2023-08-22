@@ -31,7 +31,7 @@ public class Arquivos {
 		pessoas.add(pessoa3);
 		
 		/* instanciando a classe arquivo */
-		File arquivo = new File("C:\\Desenvolvimento\\ws-sts\\jdev-apache-poi\\src\\arquivos\\arquivo.txt");
+		File arquivo = new File("C:\\Desenvolvimento\\ws-sts\\jdev-apache-poi\\src\\arquivos\\arquivo.csv");
 	
 		if (!arquivo.exists()) {
 			arquivo.createNewFile(); // cria o arquivo se não existir
