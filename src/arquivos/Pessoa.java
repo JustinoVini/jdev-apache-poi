@@ -1,4 +1,4 @@
-package br.com.jdevarquivos;
+package arquivos;
 
 public class Pessoa {
 

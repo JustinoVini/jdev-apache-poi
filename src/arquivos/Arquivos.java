@@ -1,4 +1,4 @@
-package br.com.jdevarquivos;
+package arquivos;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -31,7 +31,7 @@ public class Arquivos {
 		pessoas.add(pessoa3);
 		
 		/* instanciando a classe arquivo */
-		File arquivo = new File("E:\\ws-jdev-curso\\projeto-jdev-apache-poi\\src\\br\\com\\jdevarquivos\\arquivo.txt");
+		File arquivo = new File("C:\\Desenvolvimento\\ws-sts\\jdev-apache-poi\\src\\arquivos\\arquivo.txt");
 	
 		if (!arquivo.exists()) {
 			arquivo.createNewFile(); // cria o arquivo se não existir
@@ -39,9 +39,9 @@ public class Arquivos {
 		
 		FileWriter escreveArquivo = new FileWriter(arquivo);
 		
-		for (int i = 1; i <= 10; i++) {
+		/*for (int i = 1; i <= 10; i++) {
 			escreveArquivo.write("Texto da minha linha " + i + "\n"); // escreve o conteudo
-		}
+		}*/
 		
 		for (Pessoa p : pessoas) {
 			escreveArquivo.write(p.getNome() + ";" + p.getEmail() + ";" + p.getIdade() + "\n");

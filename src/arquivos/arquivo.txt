@@ -1,0 +1,3 @@
+Pessoa 1;pessoa1@gmail.com;10
+Pessoa 2;pessoa2@gmail.com;20
+Pessoa 3;pessoa3@gmail.com;30
